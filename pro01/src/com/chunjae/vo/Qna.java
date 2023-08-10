@@ -5,6 +5,7 @@ public class Qna {
     private String title;
     private String content;
     private String author;
+    private String name;
     private String resdate;
     private int cnt;
     private int lev;
@@ -74,6 +75,14 @@ public class Qna {
         this.par = par;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Qna{" +
@@ -81,6 +90,7 @@ public class Qna {
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
                 ", author='" + author + '\'' +
+                ", name='" + name + '\'' +
                 ", resdate='" + resdate + '\'' +
                 ", cnt=" + cnt +
                 ", lev=" + lev +

@@ -12,7 +12,7 @@
                 <% if(sid.equals("admin")) {%>
                 <li><a href=<%=path2%>"/member/index.jsp">관리자페이지</a></li>
                 <% } %>
-            <li><%=sname%></li>
+            <li><%=sname%></li> <!-- 로그인 한 회원의 이름 -->
             <% } else {%>
             <li><a href=<%=path2%>"/member/login.jsp">로그인</a></li>
             <li><a href=<%=path2%>"/member/term.jsp">회원가입</a></li>
@@ -65,10 +65,8 @@
             <li class="item5">
                 <a href="" class="dp1">QnA</a>
                 <ul class="sub">
-                    <li><a class="move" href="/upload/file_upload.html">cos 업로드</a></li>
-                    <li><a class="move" href="/upload/file_upload2.html">apach 업로드</a></li>
-                    <li><a class="move" href="/qna/qnaList.jsp">업로드 확인</a></li>
-                    <li><a class="move" href="/html/brand.html"></a></li>
+                    <li><a class="move" href="/qna_problem/qnaList.jsp">문제 QnA</a></li>
+                    <li><a class="move" href="/qna_career/qnaList.jsp">진로 상담</a></li>
                 </ul>
             </li>
         </ul>

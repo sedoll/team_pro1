@@ -1,8 +1,6 @@
 
 Q
 !src/com/chunjae/util/FeedObj.java,4\1\41c5bd367d5245853946016e9079d2992be79f68
-K
-src/com/chunjae/vo/Qna.java,e\1\e18b091e041d7e9585913d1e4aae76f5430c6413
 Q
 !src/com/chunjae/util/FeedDAO.java,6\f\6f4a0b49ed8d305fd04896f4cc998969372cffe5
 @
@@ -93,8 +91,6 @@ B
 web/js/slidebox.js,4\4\44ab74ac048da2b84e6a062327e32a72a094e47b
 E
 web/member/mypage.jsp,b\c\bc55933154d1df80ce1158c71e47b4ae78610c89
-<
-web/head.jsp,4\a\4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4
 H
 web/member/modifypro.jsp,4\6\46681eb9c898a97c8e3ea5c0b263b8aaf8874392
 F
@@ -113,8 +109,16 @@ F
 web/member/idcheck.jsp,4\2\4289b169a2e3d7981af007951a425840d6e63959
 S
 #web/board_tea/deleteBoardTeapro.jsp,9\f\9fb3d6f8926a0ddc0b6cb342e8f96039ce4021a2
->
-web/header.jsp,f\f\ff77691b3d429e53a4449f401a4cd692f37474d9
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+K
+src/com/chunjae/vo/Qna.java,e\1\e18b091e041d7e9585913d1e4aae76f5430c6413
+<
+web/head.jsp,4\a\4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4
+>
+web/header.jsp,f\f\ff77691b3d429e53a4449f401a4cd692f37474d9
+K
+web/qna_problem/qnaList.jsp,0\4\040610876b9a417425b3764feee320d58808cf95
+J
+web/qna_career/qnaList.jsp,a\8\a8acfa8f869b6e46d51fd8a25235dea2e4f8adb2

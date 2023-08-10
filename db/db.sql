@@ -91,6 +91,10 @@ CREATE TABLE board_tea(
 		CASCADE -- 작성자를 member id를 이용해 외래키로 사용
 );
 
+CREATE VIEW qnalist AS(SELECT q.qno AS qno, q.title AS title, q.content AS content, q.author AS author, 
+q.resdate AS resdate,q.cnt AS cnt, q.lev AS lev, q.par AS par, m.name AS name
+FROM qna_career q, member m WHERE q.author=m.id order BY q.par DESC, q.lev ASC, q.qno ASC);
+
 -- DROP TABLE board;
 -- DROP TABLE board_stu;
 -- DROP TABLE board_tea;
