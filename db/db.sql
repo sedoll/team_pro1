@@ -91,6 +91,6 @@ CREATE TABLE board_tea(
 		CASCADE -- 작성자를 member id를 이용해 외래키로 사용
 );
 
-DROP TABLE board;
-DROP TABLE board_stu;
-DROP TABLE board_tea;
+-- DROP TABLE board;
+-- DROP TABLE board_stu;
+-- DROP TABLE board_tea;
