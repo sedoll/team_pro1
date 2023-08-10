@@ -1,6 +1,4 @@
 
-L
-web/upload/file_upload2.html,5\4\543b9890002df65935aa6071348678b00c18a6f1
 Q
 !src/com/chunjae/util/FeedObj.java,4\1\41c5bd367d5245853946016e9079d2992be79f68
 K
@@ -13,21 +11,10 @@ R
 "src/com/chunjae/util/FileUtil.java,7\e\7e21cac6128da32486d5e0e3d7259179033e8a33
 K
 src/com/chunjae/db/DBC.java,0\2\02852cd6403094cfe88c4bddf8970f8d5b8d6cae
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-K
-web/upload/file_upload2.jsp,1\f\1f87541dacedf3124dd5aeae9bb8709ac020bb5a
-J
-web/upload/file_upload.jsp,2\6\261e047a7c38a41e586ea4f7d64fdca010f3d4d9
-K
-web/upload/file_upload.html,d\4\d4e2b72ba8e172ed44a27716bb92df369a683c15
 R
 "src/com/chunjae/db/MariaDBCon.java,7\8\783cacd8a1096e1232b0bccb8add09ef21aed99d
 N
 src/com/chunjae/dto/Board.java,f\c\fc60570f9b76206476074afc3ca578b0cd29158f
-B
-web/qna/getQna.jsp,d\a\da87428f4441fde1307ecbe6f09c046ffdeae7e6
 G
 web/board/addAnspro.jsp,8\1\813162279c67e44007b9d2533658eb2067211442
 G
@@ -50,8 +37,6 @@ F
 web/css/change_img.css,a\3\a388d0f43d769051a7667c732e754a3690586685
 D
 web/board/addAns.jsp,0\8\08fa5388d2edcff7c1008be86bdbb3760bf1fa3f
-D
-web/member/login.jsp,c\d\cddfa57185e828d441f3909f460c84bcf200efc0
 F
 web/board/addBoard.jsp,b\b\bbde5e7b489d2d162d2d9590f0c3d7a11eacb57c
 E
@@ -62,12 +47,6 @@ E
 web/member/modify.jsp,9\a\9ac731a43f33c685c294d53fff76b42d37944023
 E
 web/member/logout.jsp,a\c\ac7ca98b3d6c79e9da343702f219508ab78af468
-B
-web/qna/addAns.jsp,e\1\e1a9810b1ef720ab07190d367c2447765507821f
-C
-web/qna/qnaList.jsp,5\8\58d1f29887eac3103fe50001cbc39d3dedecb172
-G
-web/member/loginpro.jsp,8\e\8e3070cda67eeb949a64407d592e9f41ef23f848
 =
 web/index.jsp,9\f\9f198ed450f32e45b10ec3c2b1406e609b4a96cd
 M
@@ -98,31 +77,21 @@ N
 web/board_tea/addTeaAnspro.jsp,d\e\de7567620dc32a9aef89819116a3b20943c5a275
 N
 web/board_tea/boardTeaList.jsp,8\8\8816e5fe23a53590a069beb1958cdaf689a9ee6a
-S
-#web/board_tea/deleteBoardTeapro.jsp,9\f\9fb3d6f8926a0ddc0b6cb342e8f96039ce4021a2
 P
  web/board_tea/updateBoardTea.jsp,d\0\d05ee24b4f255b8bb49bbb607a7aafb5688f7d17
 S
 #web/board_tea/updateBoardTeapro.jsp,3\6\36278541fd8dab0e47b0d85d4adb94debcb08268
 M
 web/board_tea/getBoardTea.jsp,9\f\9f75a4c877bb29bfba0715b5d4a4e81d2d82716e
-F
-web/member/joinpro.jsp,c\7\c7f13c3f3dae4df8429e2a3f49fada911b1a8280
-C
-web/member/join.jsp,a\4\a4d706dcfd7ab74948ee4c3d4507aa85dbe3abf1
 C
 web/member/term.jsp,3\6\3619eaa96c134fb9e5401a3bb7a28c0a6d967300
-F
-web/member/idcheck.jsp,4\2\4289b169a2e3d7981af007951a425840d6e63959
 B
 web/js/rotation.js,1\b\1b13bbcecc3db4e9dcd57fe2676afeaae61048fe
 >
 web/js/load.js,f\0\f038d0b1ec1c19303e6d34d145ef19c50b9f6c3f
 B
 web/js/slidebox.js,4\4\44ab74ac048da2b84e6a062327e32a72a094e47b
->
-web/header.jsp,f\f\ff77691b3d429e53a4449f401a4cd692f37474d9
-<
-web/head.jsp,4\a\4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4
 E
 web/member/mypage.jsp,b\c\bc55933154d1df80ce1158c71e47b4ae78610c89
+<
+web/head.jsp,4\a\4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4
