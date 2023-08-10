@@ -30,3 +30,5 @@ bin/
 
 ## 카카오맵 api
 web/api/
+
+# .idea/sonarlint
