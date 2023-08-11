@@ -51,6 +51,8 @@
             border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
 
         .btn_group {width: 100px;}
+        .indata { display:inline-block; width: 400px; height: 32px; line-height: 32px;
+            text-indent:14px; font-size:14px; }
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
             line-height: 48px; background-color: #333; color:#fff; font-size: 18px; cursor: pointer; }

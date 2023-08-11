@@ -32,7 +32,7 @@
             out.println("<script>location.href='/index.jsp'</script>");
         } else {
             out.println("<script>alert('아이디 혹은 비밀번호가 일치하지 않거나 없습니다.')</script>");
-            out.println("<script>location.href='/login.jsp'</script>");
+            out.println("<script>location.href='login.jsp'</script>");
         }
     } catch(SQLException e) {
         System.out.println("SQL 구문이 처리되지 못했습니다.");

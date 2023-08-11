@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5d2406-c5c0-4961-a903-b3777a02070b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +34,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/git/team_pro1/pro01",
+    "last_opened_file_path": "D:/team_pro1/pro01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\team_pro1\pro01\web\qna_problem" />
+      <recent name="D:\team_pro1\pro01\web\qna_career" />
+      <recent name="D:\team_pro1\pro01\web\member" />
+      <recent name="D:\team_pro1\pro01\web\board_tea" />
+      <recent name="D:\team_pro1\pro01\web\board_stu" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691676413279</updated>
       <workItem from="1691676414308" duration="17000" />
+      <workItem from="1691724682225" duration="739000" />
     </task>
     <servers />
   </component>

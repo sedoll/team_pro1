@@ -50,7 +50,8 @@
         .tb1 td {line-height: 32px; padding-top:16px; padding-bottom:16px;
             border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
 
-        .btn_group {width: 100px;}
+        .indata { display:inline-block; width: 400px; height: 32px; line-height: 32px;
+            text-indent:14px; font-size:14px; }
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
             line-height: 48px; background-color: #333; color:#fff; font-size: 18px; cursor: pointer; }
@@ -110,7 +111,6 @@
         <section class="page" id="page1">
             <div class="page_wrap">
                 <h2 class="page_tit">게시글 상세</h2>
-
                     <form action="updateBoardpro.jsp" id="login_frm" class="frm">
                         <table class="tb1">
                             <tbody>
@@ -135,11 +135,6 @@
                         </table>
                     </form>
                 </table>
-                <div class="btn_group">
-                    <br>
-                    <hr>
-                    <br>
-                </div>
             </div>
         </section>
     </div>
