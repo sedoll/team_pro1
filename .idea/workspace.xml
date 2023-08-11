@@ -5,18 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5d2406-c5c0-4961-a903-b3777a02070b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c06274d56e177b33753d96c3f5c6a824dcff189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3963485b2feb1dcc067e9ecb1ecbcd09720e804f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/654e8eb935e49d817ce4a00a8119cb5b81d4baa8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a86f9fee5d8b9f4a9242e0d81be2039eea5f674e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b819a45725a9d5a32c025224de6a64f87b952903" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2d54a1786d832d73bbaba3c55b0d11284a331f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/c/0c06274d56e177b33753d96c3f5c6a824dcff189" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/9/3963485b2feb1dcc067e9ecb1ecbcd09720e804f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/5/654e8eb935e49d817ce4a00a8119cb5b81d4baa8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/8/a86f9fee5d8b9f4a9242e0d81be2039eea5f674e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b819a45725a9d5a32c025224de6a64f87b952903" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2d54a1786d832d73bbaba3c55b0d11284a331f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/join.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +77,7 @@
       <updated>1691676413279</updated>
       <workItem from="1691676414308" duration="17000" />
       <workItem from="1691724682225" duration="739000" />
+      <workItem from="1691734730992" duration="100000" />
     </task>
     <servers />
   </component>

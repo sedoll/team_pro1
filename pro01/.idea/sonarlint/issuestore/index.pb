@@ -35,12 +35,8 @@ D
 web/board/addAns.jsp,0\8\08fa5388d2edcff7c1008be86bdbb3760bf1fa3f
 F
 web/board/addBoard.jsp,b\b\bbde5e7b489d2d162d2d9590f0c3d7a11eacb57c
-E
-web/member/idload.jsp,b\0\b024b5113c5e63a7cbbaa0dacb73532c5fac423b
 O
 src/com/chunjae/dto/Member.java,2\b\2b48b9bdad6ad80b74f38cc1b66b4a6964b5496f
-E
-web/member/modify.jsp,9\a\9ac731a43f33c685c294d53fff76b42d37944023
 G
 web/board/addAnspro.jsp,8\1\813162279c67e44007b9d2533658eb2067211442
 K
@@ -85,16 +81,10 @@ B
 web/js/load.js,f\0\f038d0b1ec1c19303e6d34d145ef19c50b9f6c3f
 B
 web/js/slidebox.js,4\4\44ab74ac048da2b84e6a062327e32a72a094e47b
-F
-web/member/joinpro.jsp,c\7\c7f13c3f3dae4df8429e2a3f49fada911b1a8280
-C
-web/member/join.jsp,a\4\a4d706dcfd7ab74948ee4c3d4507aa85dbe3abf1
 E
 web/faq/addFaqpro.jsp,3\1\311d91b1a386fa8ba2d7b9cb1c6706b31d94b83a
 H
 web/faq/deleteFaqpro.jsp,9\4\94f0f940c60cc778993aae936741976917fb7be5
-F
-web/member/idcheck.jsp,4\2\4289b169a2e3d7981af007951a425840d6e63959
 S
 #web/board_tea/deleteBoardTeapro.jsp,9\f\9fb3d6f8926a0ddc0b6cb342e8f96039ce4021a2
 :
@@ -106,12 +96,8 @@ K
 web/qna_problem/qnaList.jsp,0\4\040610876b9a417425b3764feee320d58808cf95
 J
 web/qna_career/qnaList.jsp,a\8\a8acfa8f869b6e46d51fd8a25235dea2e4f8adb2
-D
-web/member/login.jsp,c\d\cddfa57185e828d441f3909f460c84bcf200efc0
 R
 "web/qna_problem/updateQuestion.jsp,4\3\43f4964a70efecaacdefb99fec0043eb00d4438a
-E
-web/member/logout.jsp,a\c\ac7ca98b3d6c79e9da343702f219508ab78af468
 =
 web/index.jsp,9\f\9f198ed450f32e45b10ec3c2b1406e609b4a96cd
 H
@@ -120,7 +106,3 @@ H
 web/head.jsp,4\a\4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4
 >
 web/header.jsp,f\f\ff77691b3d429e53a4449f401a4cd692f37474d9
-E
-web/member/mypage.jsp,b\c\bc55933154d1df80ce1158c71e47b4ae78610c89
-G
-web/member/loginpro.jsp,8\e\8e3070cda67eeb949a64407d592e9f41ef23f848
