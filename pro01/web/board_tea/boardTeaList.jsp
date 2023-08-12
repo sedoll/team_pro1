@@ -60,8 +60,6 @@
 
         .tb1 .item1 { width: 10%;}
         .tb1 .item2 {width: 60%;}
-        .tb1 .item3 {width: 10%;}
-        .tb1 .item4 {width: 20%;}
 
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
@@ -109,6 +107,7 @@
             Board board = new Board();
             board.setPar(rs.getInt("par"));
             board.setTitle(rs.getString("title"));
+            board.setCnt(rs.getInt("cnt"));
             board.setAuthor(rs.getString("author"));
             board.setResdate(rs.getString("resdate"));
             boardList.add(board);
@@ -136,8 +135,9 @@
                         <tr>
                             <th class="item1">번호</th>
                             <th class="item2">제목</th>
-                            <th class="item3">작성자</th>
-                            <th class="item4">작성일</th>
+                            <th class="item1">작성자</th>
+                            <th class="item1">작성일</th>
+                            <th class="item1">조회수</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -151,8 +151,9 @@
                     <tr>
                         <td class="item1"><%=tot-- %></td>
                         <td class="item2"><a href="/board_tea/getBoardTea.jsp?bno=<%=arr.getPar() %>"><%=arr.getTitle() %></a></td>
-                        <td class="item3"><%=arr.getAuthor()%></td>
-                        <td class="item4"><%=date %></td>
+                        <td class="item1"><%=arr.getAuthor()%></td>
+                        <td class="item1"><%=date %></td>
+                        <td class="item1"><%=arr.getCnt() %></td>
                     </tr>
                     <%
                         }

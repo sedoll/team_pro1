@@ -101,7 +101,7 @@
     try{
         // 조회수 갱신 코드
         conn = con.connect();
-        String sql = "update board set cnt=cnt+1 where par=? and lev=0";
+        String sql = "update board_stu set cnt=cnt+1 where par=? and lev=0";
         System.out.println(bno);
         pstmt = conn.prepareStatement(sql);
         pstmt.setInt(1, bno);
