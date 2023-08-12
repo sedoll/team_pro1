@@ -101,7 +101,6 @@
             line-height: 48px;
             padding-top: 24px;
             padding-bottom: 24px;
-            border: 1px solid #333;
             box-sizing: border-box;
             text-align: center;
         }
@@ -111,7 +110,6 @@
             line-height: 48px;
             padding-top: 24px;
             padding-bottom: 24px;
-            border: 1px solid #333;
             box-sizing: border-box;
             text-align: center;
         }
@@ -206,7 +204,7 @@
         <section class="page" id="page1">
             <div class="page_wrap">
                 <h2 class="page_tit">정보수정</h2>
-                <form action="modifypro.jsp" method="post">
+                <form name="frm2" action="modifypro.jsp" method="post" onsubmit="return inform(this)">
                     <table class="tb1">
                         <tbody>
                         <tr>
@@ -217,15 +215,21 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>비밀번호</th>
+                            <th>기존 비밀번호</th>
                             <td class="data">
-                                <!-- 변경할 비밀번호 -->
-                                <input class="indata" type="text" value="<%=pw2%>" id="re_pw" name="re_pw" required>
-
-                                <!-- 보안된 비밀번호 -->
-                                <input type="hidden" value="<%=pw2%>" name="pw2" id="pw2">
-                                <!-- 기존 비밀번호 -->
-                                <input type="hidden" value="<%=pw%>" name="pw" id="pw">
+                                <input class="indata" type="password" placeholder="기존 비밀번호" name="pw" id="pw" autofocus required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>변경할 비밀번호</th>
+                            <td class="data">
+                                <input class="indata" type="password" placeholder="새로운 비밀번호" id="new_pw1" name="new_pw1" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>변경할 비밀번호 확인</th>
+                            <td class="data">
+                                <input class="indata" type="password" placeholder="새로운 비밀번호" id="new_pw2" name="new_pw2" required>
                             </td>
                         </tr>
                         <tr>
@@ -255,6 +259,7 @@
                         </tbody>
                     </table>
                 </form>
+                <script src="/js/modify.js"></script>
             </div>
         </section>
     </div>

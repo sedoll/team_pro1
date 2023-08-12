@@ -38,10 +38,12 @@
             padding-top: 28px;}
         .breadcrumb a { color:#fff; }
 
+        <%-- 학생, 선생님 선택 폼 css--%>
         .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;}
+            text-align: center;
+            font-size: 20px;}
 
         .profile {
             margin: 0 50px; /* 이미지 사이 간격 */
@@ -76,6 +78,10 @@
         .join_type input[type="submit"] {
             margin-top: 20px; /* 버튼과 이미지 사이 간격 */
         }
+
+        .inbtn { display:block;  border-radius:100px;
+            min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
+            line-height: 48px; background-color: #333; color:#fff; font-size: 18px; }
     </style>
 
     <link rel="stylesheet" href="../css/ft.css">
@@ -95,19 +101,21 @@
                     <div>
                         <ul class="join_type">
                             <li>
-                                <img class="profile" src="/img/logo.png" alt="">
+                                <img class="profile" src="/img/boy.png" alt="">
                                 <input type="radio" name="job" value="1" id="stu" checked>
                                 <label for="stu">학생</label><br>
                             </li>
                             <li>
-                                <img class="profile" src="/img/logo.png" alt="">
+                                <img class="profile" src="/img/teacher.png" alt="">
                                 <input type="radio" name="job" value="2" id="tea">
                                 <label for="tea">교사</label><br>
                             </li>
                         </ul>
                     </div>
+                    <br>
                     <p>가입 유형을 선택해 주세요</p>
-                    <input type="submit" value="다음 단계">
+                    <br>
+                    <input class="inbtn" type="submit" value="다음 단계">
                 </form>
             </div>
         </section>

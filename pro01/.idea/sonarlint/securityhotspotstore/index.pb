@@ -29,13 +29,5 @@ G
 web/board/addAnspro.jsp,8\1\813162279c67e44007b9d2533658eb2067211442
 F
 web/board/getBoard.jsp,8\6\86f6680ef4b667a441b16a13e6f448d04f99cfb2
-E
-web/member/mypage.jsp,b\c\bc55933154d1df80ce1158c71e47b4ae78610c89
 F
 web/member/joinpro.jsp,c\7\c7f13c3f3dae4df8429e2a3f49fada911b1a8280
-C
-web/member/term.jsp,3\6\3619eaa96c134fb9e5401a3bb7a28c0a6d967300
-C
-web/member/join.jsp,a\4\a4d706dcfd7ab74948ee4c3d4507aa85dbe3abf1
->
-web/js/join.js,f\3\f397521416a28b08c8b5f9a05ec4b3b004812133
