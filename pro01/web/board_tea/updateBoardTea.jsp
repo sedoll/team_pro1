@@ -64,7 +64,7 @@
 <%
     Board q = new Board();
     int bno = Integer.parseInt(request.getParameter("bno"));
-
+    int lev = Integer.parseInt(request.getParameter("lev"));
     DBC con = new MariaDBCon();
     Connection conn = null;
     PreparedStatement pstmt = null;
@@ -120,6 +120,7 @@
                                     <th class="item3">제목</th>
                                     <td><input type="text" name="title" id="title" class="indata" value="<%=q.getTitle()%>" autofocus required></td>
                                     <input type="hidden" name="bno" value="<%=bno%>" readonly>
+                                    <input type="hidden" name="lev" value="<%=lev%>" readonly>
                                 </tr>
                                 <tr>
                                     <th colspan="2" class="item4">내용</th>

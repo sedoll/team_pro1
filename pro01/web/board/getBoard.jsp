@@ -163,7 +163,7 @@
                         <tr>
                             <th>
                                 <% if (sid != null && sid.equals(id2)) { %>
-                                <a href="/board/updateBoard.jsp?bno=<%=bno%>" class="inbtn">수정</a>
+                                <a href="/board/updateBoard.jsp?bno=<%=bno%>&lev=0" class="inbtn">수정</a>
                                 <% } %>
                             </th>
                             <th>
@@ -239,13 +239,15 @@
                     <table class="tb1">
                         <tbody>
                         <tr>
+                            <% if (sid != null) { %>
                             <th><%=sid%></th>
                             <th><textarea name="content" id="content" cols="100" rows="5" placeholder="댓글 입력" required ></textarea></th>
-                            <% if (sid != null) { %>
                             <th><input type="submit" value="글쓰기" class="inbtn" id="ans_btn"></th>
-                            <% } %>
                             <input type="hidden" name="bno" value="<%=bno%>" readonly>
-                            <input type="hidden" name="bno" value="<%=sid%>" readonly>
+                            <input type="hidden" name="id" value="<%=sid%>" readonly>
+                            <% } else {%>
+                            <p>댓글을 작성하려면 로그인하세요</p>
+                            <% } %>
                         </tr>
                         </tbody>
                     </table>

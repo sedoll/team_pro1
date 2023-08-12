@@ -7,6 +7,7 @@
 <%
 
     int bno = Integer.parseInt(request.getParameter("bno"));
+    int lev = Integer.parseInt(request.getParameter("lev"));
     String title = request.getParameter("title");
     String content = request.getParameter("content");
 
@@ -17,7 +18,12 @@
 
     try {
         conn = con.connect();
-        String sql = "update board_tea set title=?, content=? where bno=? and lev=0";
+        String sql = "";
+        if(lev == 0) {
+            sql = "update board_tea set title=?, content=? where bno=? and lev=0";
+        } else {
+            sql = "update board_tea set title=?, content=? where bno=? and lev=1";
+        }
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, title);
         pstmt.setString(2, content);

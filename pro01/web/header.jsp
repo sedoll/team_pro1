@@ -38,23 +38,6 @@
                 </ul>
             </li>
             <li class="item2">
-                <a href="/menu/learning.jsp" class="dp1">IT교육</a>
-                <ul class="sub">
-                    <li><a class="move" href="/menu/learning.jsp#python">파이썬</a></li>
-                    <li><a class="move" href="/menu/learning.jsp#java">자바</a></li>
-                    <li><a class="move" href="/menu/learning.jsp#opencv">OpenCV</a></li>
-                    <li><a class="move" href="/menu/learning.jsp#android">안드로이드</a></li>
-                </ul>
-            </li>
-            <li class="item3">
-                <a href="/menu/certification.jsp" class="dp1">자격증</a>
-                <ul class="sub">
-                    <li><a class="move" href="/menu/certification.jsp#ipe" onclick="handleLinkClick('ipe')">정보처리기사</a></li>
-                    <li><a class="move" href="/menu/certification.jsp#ipie" onclick="handleLinkClick('ipie')">정보처리산업기사</a></li>
-                    <li><a class="move" href="/menu/certification.jsp#bda" onclick="handleLinkClick('bda')">빅데이터분석기사</a></li>
-                </ul>
-            </li>
-            <li class="item4">
                 <a href="" class="dp1">게시판</a>
                 <ul class="sub">
                     <li><a class="move" href="/board/boardList.jsp">자유 게시판</a></li>
@@ -62,7 +45,7 @@
                     <li><a class="move" href="/board_tea/boardTeaList.jsp">선생님 게시판</a></li>
                 </ul>
             </li>
-            <li class="item5">
+            <li class="item3">
                 <a href="" class="dp1">QnA</a>
                 <ul class="sub">
                     <li><a class="move" href="/qna_problem/qnaList.jsp">문제 QnA</a></li>

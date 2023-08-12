@@ -7,6 +7,7 @@
 <%
 
     int qno = Integer.parseInt(request.getParameter("qno"));
+    int lev = Integer.parseInt(request.getParameter("lev"));
     String title = request.getParameter("title");
     String content = request.getParameter("content");
 
@@ -17,7 +18,12 @@
 
     try {
         conn = con.connect();
-        String sql = "update qna_problem set title=?, content=? where qno=? and lev=0";
+        String sql = "";
+        if(lev == 0) {
+            sql = "update qna_problem set title=?, content=? where qno=? and lev=0";
+        } else {
+            sql = "update qna_problem set title=?, content=? where qno=? and lev=1";
+        }
         pstmt = conn.prepareStatement(sql);
         pstmt.setString(1, title);
         pstmt.setString(2, content);
