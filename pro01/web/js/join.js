@@ -22,6 +22,12 @@ function inform(frm){
         pw.focus();
         return false;
     }
+    
+    // 약관 동의 확인
+    if(!frm.ck_item1.checked) {
+        alert("약관에 동의하지 않으셨습니다.");
+        return false;
+    }
 }
 function idcheck(){
     var child;
