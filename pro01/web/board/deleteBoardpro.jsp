@@ -26,7 +26,7 @@
         if(cnt > 0) {
             System.out.println("글 삭제 완료");
             out.println("<script>alert('삭제 성공')</script>");
-            out.println("<script>location.href='boardTeaList.jsp'</script>");
+            out.println("<script>location.href='boardList.jsp'</script>");
         } else {
             System.out.println("글 삭제 실패");
             response.sendRedirect("getBoardTea.jsp?bno="+bno);

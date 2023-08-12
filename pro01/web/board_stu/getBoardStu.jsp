@@ -101,6 +101,10 @@
     PreparedStatement pstmt = null;
     ResultSet rs = null;
 
+    Date d;  //날짜데이터로 변경
+    String date;
+    SimpleDateFormat ymd = new SimpleDateFormat("yyyy-MM-dd");
+
     try{
         // 조회수 갱신 코드
         conn = con.connect();

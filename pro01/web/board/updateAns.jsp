@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>게시판 상세보기</title>
+    <title>댓글 수정</title>
     <%@ include file="../head.jsp" %>
 
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
@@ -77,7 +77,7 @@
     }
 
     try{
-        String sql = "select * from board where bno=? and lev=0";
+        String sql = "select * from board where bno=? and lev=1";
         pstmt = conn.prepareStatement(sql);
         pstmt.setInt(1, bno);
         rs = pstmt.executeQuery();
@@ -105,26 +105,23 @@
         <div class="breadcrumb">
             <p>
                 <a href="/">HOME</a> &gt; <a href="/board/boardList.jsp">board</a> &gt; <a href="/board/boardList.jsp">board 상세</a>
-                &gt; <a href="/board/boardList.jsp">게시글 수정</a>
+                &gt; <a href="/board/boardList.jsp">댓글 수정</a>
             </p>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">게시글 수정</h2>
+                <h2 class="page_tit">댓글 수정</h2>
                     <form action="updateBoardpro.jsp" id="login_frm" class="frm">
                         <table class="tb1">
                             <tbody>
                                 <tr>
-                                    <th class="item3">제목</th>
-                                    <td><input type="text" name="title" id="title" class="indata" value="<%=q.getTitle()%>" autofocus required></td>
-                                    <input type="hidden" name="bno" value="<%=bno%>" readonly>
-                                </tr>
-                                <tr>
                                     <th colspan="2" class="item4">내용</th>
                                 </tr>
                                 <tr>
-                                    <td colspan="2"><textarea name="content" id="content" class="" cols="80" rows="15" maxlength="100" required><%=q.getContent()%></textarea></td>
-                                    <input type="hidden" name="lev" id="lev" value="0">
+                                    <td colspan="2"><textarea name="content" id="content" class="" cols="80" rows="15" maxlength="100" autofocus required><%=q.getContent()%></textarea></td>
+                                    <input type="hidden" name="lev" id="lev" value="1" readonly>
+                                    <input type="hidden" name="bno" value="<%=bno%>" readonly>
+                                    <input type="hidden" name="title" id="title" class="indata" value="댓글"readonly>
                                 </tr>
                                 <tr>
                                     <td colspan="2">
