@@ -140,22 +140,19 @@
         .inbtn:hover {
             background-color: #666666;
         }
-
         .indata {
-            width: 280px;          /* input 요소의 너비를 최대로 확장 */
-            padding: 8px 12px;    /* input 요소 내부의 패딩 추가 */
-            font-size: 18px;      /* 글자 크기 조정 */
-            border: 1px solid #ccc; /* 테두리 추가 */
-            border-radius: 8px;     /* 테두리 둥글게 */
-            box-sizing: border-box; /* 패딩과 테두리를 포함한 전체 너비를 지정 */
-            background-color: #f7f7f7; /* 배경색 조정 */
-            transition: background-color 0.3s; /* 배경색 변화에 효과 추가 */
+            width: 280px;
+            padding: 8px 12px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            background-color: #f7f7f7;
         }
-
         .indata:focus {
-            background-color: #fff; /* 포커스 시 배경색 변경 */
-            outline: none; /* 포커스 시 외곽선 제거 */
-            border-color: #666; /* 포커스 시 테두리 색상 변경 */
+            background-color: #fff;
+            outline: none;
+            border-color: #666;
         }
     </style>
 </head>
