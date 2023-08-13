@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/* 헤더 구역 스타일 */
+.hd {
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+
+.hd_wrap {
+    clear: both;
+    width: 100%;
+}
+
+.hd_wrap:first-child {
+    background-color: greenyellow;
+    border-bottom: 1px solid #333;
+}
+
+.hd_wrap:last-child {
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tnb {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tnb::after {
+    content: "";
+    clear: both;
+    display: block;
+    width: 100%;
+}
+
+.tnb .menu {
+    float: right;
+    height: 40px;
+    margin: auto;
+    line-height: 40px;
+}
+
+.tnb .menu li {
+    float: left;
+    padding-left: 40px;
+}
+
+.logo {
+    display: block;
+    width: auto;
+    height: 50px;
+    float: left;
+}
+
+.logo img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.gnb {
+    width: 900px;
+    margin: 0 auto;
+    float: right;
+    height: 50px;
+}
+
+.gnb::before {
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    left: 0;
+    top: 90px;
+    z-index: 15;
+    display: none;
+}
+
+.gnb:hover::before {
+    display: block;
+}
+
+.gnb .menu {
+    clear: both;
+    height: 50px;
+    position: relative;
+}
+
+.gnb .menu::after {
+    content: "";
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+.gnb .menu li {
+    float: left;
+    width: 20%;
+    position: relative;
+    height: 50px;
+}
+
+.gnb .menu li .sub {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    top: 48px;
+    left: 0;
+    z-index: 999;
+    transition: 0.3s;
+}
+
+.gnb .menu li a.dp1 {
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.gnb .menu li:hover a.dp1 {
+    font-size: 24px;
+    border-bottom: 2px solid greenyellow;
+    background-color: greenyellow;
+}
+
+.gnb .menu:hover li .sub {
+    visibility: visible;
+    height: 240px;
+    opacity: 1;
+}
+
+.gnb .menu li .sub li {
+    padding-left: 0px;
+    line-height: 34px;
+    clear: both;
+    width: 180px;
+}
+
+.gnb .menu li .sub li a {
+    display: block;
+    width: 180px;
+    text-align: center;
+    line-height: 34px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.gnb .menu li .sub li:hover a {
+    font-size: 20px;
+    background-color: rgba(173, 255, 47, 0.9);
+}
