@@ -43,17 +43,60 @@
         .breadcrumb a { color:#fff; }
         .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; }
 
-        .tb1 { width:500px; margin:0 auto; font-size: 24px;}
-        .tb1 th { width:180px; line-height: 48px; padding-top:24px; padding-bottom:24px;
-            border: 1px solid #333; box-sizing: border-box; text-align: center;}
-        .tb1 .data { width:320px; line-height: 48px; padding-top:24px; padding-bottom:24px;
-            border: 1px solid #333; box-sizing: border-box; text-align: center;}
+        .tb1 {
+            width:600px;
+            margin:0 auto;
+            font-size: 20px;
+            border-collapse: separate;
+            border-spacing: 0 20px;
+            background-color: #e1e1e1;
+            border-radius: 14px;
 
-        .inbtn { display:block;  border-radius:100px;
-            min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #333; color:#fff; font-size: 18px;  margin-top: 20px;}
+        }
+        .tb1 th {
+            width:180px;
+            line-height: 30px;
+
+            padding-left: 70px;
+            border-right: 2px solid #6b6b6b;
+
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .tb1 .data {
+            width:320px;
+            line-height: 30px;
+            padding-top:4px;
+            padding-bottom:4px;
+            /*border-bottom: 1px solid #333; */
+            box-sizing: border-box;
+            text-align: left;
+            padding-left: 90px;
+        }
+
+        .tb2 {
+            width: 600px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .inbtn { display:block;
+            border-radius:10px;
+            min-width:120px;
+            padding-left: 24px;
+            padding-right: 24px;
+            text-align: center;
+            line-height: 38px;
+            background-color: #333;
+            color:#fff;
+            font-size: 18px;
+            cursor: pointer; }
         .inbtn:first-child { float:left; }
         .inbtn:last-child { float:right; }
+        .inbtn:hover {
+            background-color: #666666;
+        }
     </style>
 </head>
 
@@ -112,6 +155,10 @@
                 <table class="tb1">
                     <tbody>
                     <tr>
+                        <th>이름</th>
+                        <td class="data"><%=mem.getName()%></td>
+                    </tr>
+                    <tr>
                         <th>아이디</th>
                         <td class="data"><%=mem.getId()%></td>
                     </tr>
@@ -119,10 +166,7 @@
                         <th>직업</th>
                         <td class="data"><%=(mem.getJob() == 0 ? "관리자" : mem.getJob() == 1 ? "학생" : "선생님" )%></td>
                     </tr>
-                    <tr>
-                        <th>이름</th>
-                        <td class="data"><%=mem.getName()%></td>
-                    </tr>
+
                     <tr>
                         <th>전화번호</th>
                         <td class="data"><%=mem.getTel()%></td>
@@ -135,13 +179,15 @@
                         <th>포인트</th>
                         <td class="data"><%=mem.getPoint()%></td>
                     </tr>
+                    </tbody>
+                </table>
+                <table class="tb2">
                     <tr>
                         <td colspan="2">
                             <a href="./modify.jsp" class="inbtn">회원정보수정</a>
                             <a href="/" class="inbtn">메인화면</a>
                         </td>
                     </tr>
-                    </tbody>
                 </table>
             </div>
         </section>

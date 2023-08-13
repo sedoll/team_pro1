@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="../css/ft.css">
     <style>
         /* 본문 영역 스타일 */
-        .contents { clear:both; min-height: 150vh; background-image: url("../img/login.jpg");
+        .contents { clear:both; min-height: 180vh; background-image: url("../img/login.jpg");
             background-repeat: no-repeat; background-position: center -250px; }
         .contents::after { content:""; clear:both; display:block; width:100%; }
 
@@ -127,8 +127,8 @@
         }
         .tb2 td {
             border-bottom: 1px solid #7e7e7e;
-
-
+            vertical-align: middle;
+            height: 60px;
         }
 
         .tb2 thead tr th{
@@ -136,6 +136,7 @@
         }
         .tb2 tbody tr td:first-child{
             text-align: center;
+            font-weight: bold;
 
         }
         .tb2 tbody tr td:nth-child(2){
@@ -191,9 +192,7 @@
             text-align: center;
         }
 
-        p {
-            display: inline-block;
-        }
+
 
         .tb3{
             width: 1200px;
@@ -231,7 +230,13 @@
              border-radius: 5px;
              vertical-align: middle;
          }
-
+        #nologin_comment {
+            width: 1200px;
+            text-align: center;
+            padding-top: 60px;
+            position: absolute;
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -354,13 +359,15 @@
                         for(int i=1; i<boardList.size(); i++) {
                             d = ymd.parse(boardList.get(i).getResdate());  //날짜데이터로 변경
                             date = ymd.format(d);    //형식을 포함한 문자열로 변경
+                            String author = boardList.get(i).getAuthor();
                     %>
                     <tr>
-                        <td class="item1"><%=boardList.get(i).getAuthor()%></td>
+                        <td class="item1"><%=author %></td>
                         <td class="item2"><%=boardList.get(i).getContent() %></td>
                         <td class="item3"><%=date %></td>
                         <td class="item4">
-                        <% if (sid != null && sid.equals(id2)) { %>
+<%--                        0813 댓글 수정버튼 표시안되어 코드 수정. by 백준철--%>
+                        <% if (sid != null && sid.equals(author) ) { %>
                         <a href="/board/updateAns.jsp?bno=<%=boardList.get(i).getBno()%>&lev=1" class="inbtn">수정</a>
                         <% } %>
                         <% if(sid!=null && (sid.equals(boardList.get(i).getAuthor()) || sid.equals("admin")) && boardList.get(i).getLev() != 0) { %>
@@ -405,7 +412,7 @@
                             <input type="hidden" name="bno" value="<%=bno%>" readonly>
                             <input type="hidden" name="id" value="<%=sid%>" readonly>
                             <% } else {%>
-                            <p>댓글을 작성하려면 로그인하세요</p>
+                            <p id="nologin_comment">댓글을 작성하려면 로그인하세요</p>
                             <% } %>
                         </tr>
                         </tbody>
