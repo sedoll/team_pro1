@@ -68,23 +68,23 @@
         }
         .indata {
             display:inline-block;
-            width: 590px; /* 조정된 너비 */
+            width: 590px;
             height: 32px;
             line-height: 32px;
             text-indent:10px;
             font-size:16px;
-            border: 1px solid #ccc; /* 테두리 추가 */
-            border-radius: 5px; /* 둥근 테두리 */
-            padding: 5px 15px; /* 패딩 추가 */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 15px;
         }
 
         textarea {
-            resize: none; /* 크기 조절 기능 제거 */
-            width: 600px; /* 조정된 너비 */
-            padding: 10px; /* 패딩 추가 */
-            border: 1px solid #ccc; /* 테두리 추가 */
-            border-radius: 5px; /* 둥근 테두리 */
-            font-size:16px; /* 폰트 크기 조절 */
+            resize: none;
+            width: 600px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size:16px;
         }
 
     </style>

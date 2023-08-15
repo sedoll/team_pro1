@@ -148,7 +148,6 @@
                                     <td colspan="2"><input type="text" name="title" id="title" class="indata" value="<%=q.getTitle()%>" placeholder="제목 입력" autofocus required></td>
                                     <input type="hidden" name="bno" value="<%=bno%>" readonly>
                                 </tr>
-
                                 <tr>
                                     <td colspan="2"><textarea name="content" id="content" class="" cols="50" rows="15" maxlength="100" placeholder="내용 입력" required><%=q.getContent()%></textarea></td>
                                     <input type="hidden" name="lev" id="lev" value="0">

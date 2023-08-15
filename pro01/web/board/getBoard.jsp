@@ -403,7 +403,6 @@
                             'border':'none',
                         });
 
-
                     } );
                 </script>
                 <form action="addAnspro.jsp" id="login_frm" class="frm">

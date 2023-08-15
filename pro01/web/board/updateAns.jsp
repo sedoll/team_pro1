@@ -42,13 +42,13 @@
             width:1200px; margin: 0 auto; text-align: right; color:#fff;
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
-        .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; }
+        .frm { clear:both; width:1200px; margin:0 auto; padding-top: 20px; }
 
         .tb1 { width:600px; margin:0 auto; font-size: 24px;}
         .tb1 th {line-height: 32px; padding-top:16px; padding-bottom:16px;
-            border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
+            border-bottom: 1px solid #333;  box-sizing: border-box; text-align: center;}
         .tb1 td {line-height: 32px; padding-top:16px; padding-bottom:16px;
-            border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
+            border-bottom: 1px solid #333;  box-sizing: border-box; text-align: center;}
 
         .indata { display:inline-block; width: 400px; height: 32px; line-height: 32px;
             text-indent:14px; font-size:14px; }
