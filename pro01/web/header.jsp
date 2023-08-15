@@ -24,7 +24,7 @@
 
 <div class="hd_wrap"> <!-- .hd_wrap:first-child  -->
     <a href=<%=path2%>"/index.jsp" class="logo">
-        <img src=<%=path2%>"/img/chunjae.png" alt="">
+        <img src=<%=path2%>"/img/logo.png" alt="">
     </a>
     <nav class="gnb">
         <ul class="menu">
