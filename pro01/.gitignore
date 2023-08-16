@@ -29,6 +29,6 @@ bin/
 .DS_Store
 
 ## 카카오맵 api
-web/api/
+web2/api/
 
 # .idea/sonarlint
