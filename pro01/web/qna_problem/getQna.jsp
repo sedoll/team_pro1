@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="../css/ft.css">
     <style>
         /* 본문 영역 스타일 */
-        .contents { clear:both; min-height: 100vh; background-image: url("../img/login.jpg");
+        .contents { clear:both; min-height: 150vh; background-image: url("../img/login.jpg");
             background-repeat: no-repeat; background-position: center -250px; }
         .contents::after { content:""; clear:both; display:block; width:100%; }
 
@@ -53,41 +53,35 @@
         .breadcrumb a { color:#fff; }
         .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; }
 
-        .tb1 { margin:0 auto; font-size: 24px;}
-        .tb1 th {line-height: 32px; padding-top:16px; padding-bottom:16px;
+        .tb1 {width: 1200px; font-size: 17px; margin-bottom: 50px;}
+        .tb1 th {line-height: 32px; padding-top:8px; padding-bottom:8px; font-size: 21px;
             border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
-        .tb1 td {line-height: 32px; padding-top:16px; padding-bottom:16px;
-            border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: center;}
+        .tb1 td {line-height: 32px; padding-top:8px; padding-bottom:8px;
+            border-bottom: 1px solid #333; border-top: 1px solid #333; box-sizing: border-box; text-align: left;}
 
         .tb1 .item1 { width: 20%;}
         .tb1 .item2 {width: 55%;}
         .tb1 .item3 {width: 10%;}
         .tb1 .item4 {width: 15%;}
 
-        .inbtn { display:block;  border-radius:100px;
-            min-width:140px; margin-right: 10px; margin-left: 10px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #333; color:#fff; font-size: 18px; float: right; cursor: pointer; }
+        .inbtn { display:inline-block;  border-radius:10px;
+            width:30px; margin-right: 10px; margin-left: 10px; text-align: center;  background-color: #333; color:#fff; font-size: 15px; cursor: pointer; }
 
-        #delete_btn {
+        .delete_btn {
             background-color: red; color:#fff;
-        }
-
-        #delete_btn:hover {
-            background-color: brown;
         }
 
         .inbtn:hover {
             background-color: #666666;
         }
 
-        .inbtn2 { display:block;  border-radius:50px;
-            min-width:50px; background-color: red; color:#fff; font-size: 13px; float: left; }
-
-        .inbtn2:hover { background-color: brown;}
-
+        .frm{margin-top: 50px;}
+        .frm tr > *{margin-right: 10px;}
         .btn_group {margin-top: 50px;}
-
+        #ans_btn {float: right; border-radius:10px;
+            width:60px; padding: 10px;}
         p {display: inline-block;}
+        textarea {resize: none;}
     </style>
 </head>
 
@@ -99,6 +93,10 @@
     Connection conn = null;
     PreparedStatement pstmt = null;
     ResultSet rs = null;
+
+    Date d;  //날짜데이터로 변경
+    String date;
+    SimpleDateFormat ymd = new SimpleDateFormat("yyyy-MM-dd");
 
     try{
         // 조회수 갱신 코드
@@ -152,31 +150,69 @@
         <section class="page" id="page1">
             <div class="page_wrap">
                 <h2 class="page_tit">문제 QNA 상세</h2>
+                <table class="tb1">
+                    <%
+                        String id2 = qnaList.get(0).getAuthor();
+                    %>
+                    <thead>
+                    <tr class="title">
+                        <th colspan="5"><%=qnaList.get(0).getTitle()%></th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <% if (sid != null && sid.equals(id2)) { %>
+                            <a href="/qna_problem/updateQuestion.jsp?qno=<%=qno%>&lev=0" class="inbtn">수정</a>
+                            <% } %>
+                        </th>
+                        <th>
+                            <% if (sid != null &&( sid.equals("admin") || sid.equals(id2))) { %>
+                            <a href="/qna_problem/deleteQnapro.jsp?qno=<%=qno%>&lev=0" class="inbtn delete_btn" >삭제</a>
+                            <% } %>
+                        </th>
+                        <th><%=qnaList.get(0).getAuthor()%></th>
+                        <th><%
+                            d = ymd.parse(qnaList.get(0).getResdate());  //날짜데이터로 변경
+                            date = ymd.format(d);
+                        %>
+                            <%=date %>
+                        </th>
+                        <th>조회수 <%=qnaList.get(0).getCnt()%></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td colspan="5" class="content">
+                            <%=qnaList.get(0).getContent()%>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
                 <table class="tb1" id="myTable">
                     <thead>
                     <tr>
-                        <th class="item1">조회수 : <%=qnaList.get(0).getCnt()%></th>
-                        <th class="item2">내용</th>
+                        <th class="item1"></th>
+                        <th class="item2">댓글</th>
                         <th class="item3">작성자</th>
                         <th class="item4">작성일</th>
                     </tr>
                     </thead>
                     <tbody>
                     <%
-                        SimpleDateFormat ymd = new SimpleDateFormat("yyyy-MM-dd");
-                        for(Qna arr:qnaList) {
-                            Date d = ymd.parse(arr.getResdate());  //날짜데이터로 변경
-                            String date = ymd.format(d);    //형식을 포함한 문자열로 변경
+                        for(int i=1; i<qnaList.size(); i++) {
+                            d = ymd.parse(qnaList.get(i).getResdate());  //날짜데이터로 변경
+                            date = ymd.format(d);;    //형식을 포함한 문자열로 변경
                     %>
                     <tr>
                         <td class="item1">
-                            <p><%= (arr.getLev() == 0 ? "[질문] " : "[답변] ")%></p>
-                            <% if(sid!=null && (sid.equals(arr.getAuthor()) || sid.equals("admin")) && arr.getLev() != 0) { %>
-                            <a href="deleteQnapro.jsp?qno=<%=arr.getQno()%>&lev=1" class="inbtn2"> 삭제 </a>
+                            <% if (sid != null && sid.equals(id2)) { %>
+                            <a href="/qna_problem/updateAns.jsp?qno=<%=qnaList.get(i).getQno()%>&lev=1" class="inbtn">수정</a>
+                            <% } %>
+                            <% if(sid!=null && (sid.equals(qnaList.get(i).getAuthor()) || sid.equals("admin")) && qnaList.get(i).getLev() != 0) { %>
+                            <a href="/qna_problem/deleteQnapro.jsp?qno=<%=qnaList.get(i).getQno()%>&lev=1" class="inbtn delete_btn"> 삭제 </a>
                             <% } %>
                         </td>
-                        <td class="item2"><%=arr.getContent() %></td>
-                        <td class="item3"><%=arr.getAuthor()%></td>
+                        <td class="item2"><%=qnaList.get(i).getContent() %></td>
+                        <td class="item3"><%=qnaList.get(i).getAuthor()%></td>
                         <td class="item4"><%=date %></td>
                     </tr>
                     <%
@@ -193,29 +229,27 @@
 
                             // 3번째 컬럼을 기준으로 내림차순 정렬
                             order: [[3, 'asc']],
+                            pageLength : 5,
                         });
                     } );
                 </script>
-                <div class="btn_group">
-                    <%
-                        String id2 = qnaList.get(0).getAuthor();
-                        if (sid != null &&( sid.equals("admin") || sjob.equals("2"))) {
-                    %>
-                    <a href="addAns.jsp?qno=<%=qno%>" class="inbtn"> 댓글 작성 </a>
-                    <% } else {%>
-                    <p class="exp">선생님만 댓글을 작성 할 수 있습니다.</p>
-                    <% }
-                        if (sid != null && sid.equals(id2)) { %>
-                    <a href="updateQuestion.jsp?qno=<%=qno%>" class="inbtn"> 내용 수정 </a>
-                    <% } else {%>
-                    <p class="exp">해당 글을 작성한 회원만 내용을 수정할 수 있습니다.</p>
-                    <% }
-                        if (sid != null &&( sid.equals("admin") || sid.equals(id2))) { %>
-                    <a href="deleteQnapro.jsp?qno=<%=qno%>&lev=0" class="inbtn" id="delete_btn"> 내용 삭제 </a>
-                    <% } else {%>
-                    <p class="exp">해당 글을 작성한 회원만 내용을 삭제할 수 있습니다.</p>
-                    <% } %>
-                </div>
+                <form action="addAnspro.jsp" id="login_frm" class="frm">
+                    <table class="tb1">
+                        <tbody>
+                        <tr>
+                            <% if (sid != null && (sid.equals(id2) || sjob.equals("2") || sid.equals("admin"))) { %>
+                            <th><%=sid%></th>
+                            <th><textarea name="content" id="content" cols="100" rows="5" placeholder="댓글 입력" required ></textarea></th>
+                            <th><input type="submit" value="글쓰기" class="inbtn" id="ans_btn"></th>
+                            <input type="hidden" name="qno" value="<%=qno%>" readonly>
+                            <input type="hidden" name="id" value="<%=sid%>" readonly>
+                            <% }  else {%>
+                                <p>댓글을 작성하려면 로그인하세요</p>
+                            <% } %>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
             </div>
         </section>
     </div>

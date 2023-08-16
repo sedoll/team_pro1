@@ -64,7 +64,7 @@
 <%
     Qna q = new Qna();
     int qno = Integer.parseInt(request.getParameter("qno"));
-
+    int lev = Integer.parseInt(request.getParameter("lev"));
     DBC con = new MariaDBCon();
     Connection conn = null;
     PreparedStatement pstmt = null;
@@ -78,7 +78,7 @@
     }
 
     try{
-        String sql = "select * from qna where qno=? and lev=0";
+        String sql = "select * from qna_career where qno=? and lev=0";
         pstmt = conn.prepareStatement(sql);
         pstmt.setInt(1, qno);
         rs = pstmt.executeQuery();
@@ -120,6 +120,7 @@
                                     <th class="item3">제목</th>
                                     <td><input type="text" name="title" id="title" class="indata" value="<%=q.getTitle()%>" autofocus required></td>
                                     <input type="hidden" name="qno" value="<%=qno%>" readonly>
+                                    <input type="hidden" name="lev" value="<%=lev%>" readonly>
                                 </tr>
                                 <tr>
                                     <th colspan="2" class="item4">내용</th>

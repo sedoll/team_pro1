@@ -13,7 +13,7 @@
 <meta http-equiv="author" content="오세훈"> <!-- 문서의 제작사 -->
 <meta http-equiv="publisher" content="IT 천재교육 아카데미"> <!-- 문서의 저자 정의 -->
 <meta http-equiv="copyright" content="copyright@chunjae.co.kr"> <!-- 저작권 명시 -->
-<title>ITALL</title>
+<title>TEENTALK</title>
 
 <!-- 검색엔진 최적화(SEO) -->
 <meta name="subject" content="IT교육, ITALL"> <!-- 페이지 주제 지정 http-equiv 로 지정해도 상관 무 -->

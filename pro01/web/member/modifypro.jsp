@@ -6,18 +6,18 @@
 <%
     String id = request.getParameter("id");
     String pw = request.getParameter("pw");
-    String re_pw = request.getParameter("re_pw");
+    String new_pw = request.getParameter("new_pw1");
     String tel = request.getParameter("tel");
     String email = request.getParameter("email");
     String apw = "";
 
     System.out.println(pw);
-    System.out.println(re_pw);
+    System.out.println(new_pw);
 
-    if(pw.equals(re_pw)) {
+    if(pw.equals(new_pw)) {
         apw = pw;
     } else {
-        apw = re_pw;
+        apw = new_pw;
     }
 
     Connection conn = null;

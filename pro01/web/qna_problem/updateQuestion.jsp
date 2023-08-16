@@ -64,6 +64,7 @@
 <%
     Qna q = new Qna();
     int qno = Integer.parseInt(request.getParameter("qno"));
+    int lev = Integer.parseInt(request.getParameter("lev"));
 
     DBC con = new MariaDBCon();
     Connection conn = null;
@@ -120,6 +121,7 @@
                                     <th class="item3">제목</th>
                                     <td><input type="text" name="title" id="title" class="indata" value="<%=q.getTitle()%>" autofocus required></td>
                                     <input type="hidden" name="qno" value="<%=qno%>" readonly>
+                                    <input type="hidden" name="lev" value="<%=lev%>" readonly>
                                 </tr>
                                 <tr>
                                     <th colspan="2" class="item4">내용</th>

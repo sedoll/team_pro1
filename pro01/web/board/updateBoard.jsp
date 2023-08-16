@@ -105,12 +105,12 @@
         <div class="breadcrumb">
             <p>
                 <a href="/">HOME</a> &gt; <a href="/board/boardList.jsp">board</a> &gt; <a href="/board/boardList.jsp">board 상세</a>
-                &gt; <a href="/board/boardList.jsp">질문 수정</a>
+                &gt; <a href="/board/boardList.jsp">게시글 수정</a>
             </p>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">게시글 상세</h2>
+                <h2 class="page_tit">게시글 수정</h2>
                     <form action="updateBoardpro.jsp" id="login_frm" class="frm">
                         <table class="tb1">
                             <tbody>
@@ -124,6 +124,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2"><textarea name="content" id="content" class="" cols="80" rows="15" maxlength="100" required><%=q.getContent()%></textarea></td>
+                                    <input type="hidden" name="lev" id="lev" value="0">
                                 </tr>
                                 <tr>
                                     <td colspan="2">

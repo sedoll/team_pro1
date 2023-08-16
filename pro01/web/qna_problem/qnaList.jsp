@@ -77,12 +77,12 @@
 </head>
 
 <%
-    if(sid != null && ( !sid.equals("") || sid.equals("admin"))) {
-
-    } else {
-        out.println("<script>alert('해당 페이지는 회원만 접근 가능합니다.')</script>");
-        out.println("<script>location.href='/index.jsp'</script>");
-    }
+//    if(sid != null && ( !sid.equals("") || sid.equals("admin"))) {
+//
+//    } else {
+//        out.println("<script>alert('해당 페이지는 회원만 접근 가능합니다.')</script>");
+//        out.println("<script>location.href='/index.jsp'</script>");
+//    }
 
     List<Qna> qnaList = new ArrayList<>();
 

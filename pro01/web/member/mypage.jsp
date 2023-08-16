@@ -116,16 +116,6 @@
                         <td class="data"><%=mem.getId()%></td>
                     </tr>
                     <tr>
-                        <th>비밀번호</th>
-                        <td class="data"><%=mem.getPw().substring(0, 2)%>
-                            <%
-                                for(int i=0; i<mem.getPw().length()-2; i++) {
-                                    out.print("*");
-                                }
-                            %>
-                        </td>
-                    </tr>
-                    <tr>
                         <th>직업</th>
                         <td class="data"><%=(mem.getJob() == 0 ? "관리자" : mem.getJob() == 1 ? "학생" : "선생님" )%></td>
                     </tr>
