@@ -95,6 +95,6 @@ CREATE VIEW qnalist AS(SELECT q.qno AS qno, q.title AS title, q.content AS conte
 q.resdate AS resdate,q.cnt AS cnt, q.lev AS lev, q.par AS par, m.name AS name
 FROM qna_career q, member m WHERE q.author=m.id order BY q.par DESC, q.lev ASC, q.qno ASC);
 
--- DROP TABLE board;
--- DROP TABLE board_stu;
--- DROP TABLE board_tea;
+DROP TABLE board;
+DROP TABLE board_stu;
+DROP TABLE board_tea;
