@@ -1,4 +1,4 @@
-#                   천재교육 풀스택 과정 1차 프로젝트 
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 1차 프로젝트 
 
 ![스크린샷 2023-08-16 220827](https://github.com/kuyejin/project1/assets/65212187/e5da7ce5-3c8e-4b2b-a283-164cbd2fa902)
 
@@ -57,12 +57,15 @@
 
 
 #  👨‍👨‍ 협업 방식
-**✔ 파일 공유는 ⁉** &nbsp;&nbsp;  [![](https://camo.githubusercontent.com/5f4f9e864500236994df27a0204caec7543b79162b3e45e9edaecc499ad2186d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f74696f6e2d3030303030303f7374796c653d666c61742d726f756e64266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465)](https://www.notion.so/2-61e48e6a682e4d7191fc2993b91b0665)
+**✔ 언제든 자유롭게 의견내기, 단 강요는 🙅‍♂️**   
 
-**✔ 비대면 소통은 ⁉** &nbsp;&nbsp;
-<img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white"/></a>
+✔   [![](https://camo.githubusercontent.com/5f4f9e864500236994df27a0204caec7543b79162b3e45e9edaecc499ad2186d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f74696f6e2d3030303030303f7374796c653d666c61742d726f756e64266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465)](https://www.notion.so/2-61e48e6a682e4d7191fc2993b91b0665)
+&nbsp;&nbsp;**개발에 관련된 모든 자료를 공유하며 과정를 기록합니다.**
 
-**✔ 언제든 자유롭게 의견내기, 단 강요는 🙅‍♂️**  
+✔ <img src="https://img.shields.io/badge/slack-4A154B?style=flat&logo=slack&logoColor=white"/></a>
+&nbsp;&nbsp;**개발 과정에서 발생하는 모든 이슈를 공유하며 협력하여 해결할 수 있도록 합니다.**
+
+ 
 
 <br/>
 
@@ -155,6 +158,3 @@
 ![17_고객센터 - FAQ](https://github.com/kuyejin/project1/assets/65212187/fae19a35-fe2a-4f18-947a-82b6aed7282e)
 
 🔹고객센터 - 문의하기![18_고객센터 - 문의하기](https://github.com/kuyejin/project1/assets/65212187/f6b1c0f0-0cd8-4b37-ae21-2dc3dc3a35a7)
-
-
-
