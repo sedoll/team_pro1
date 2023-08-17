@@ -21,26 +21,64 @@
     <link rel="stylesheet" href="../css/hd.css">
 
 
-
-
     <style>
         /* 본문 영역 스타일 */
-        .contents { clear:both; min-height:250vh;
-            background-image: url("../img/subbg.png");
-            background-repeat: no-repeat; background-position:center -100px; }
-        .contents::after { content:""; clear:both; display:block; width:100%; }
+        .contents {
+            clear: both;
+            min-height: 120vh;
+            background-image: url("/img/subbg.png");
+            background-repeat: no-repeat;
+            background-position: center -250px;
+        }
 
-        .page { clear:both; width: 100vw; height: 150vh; position:relative; }
-        .page::after { content:""; display:block; width: 100%; clear:both; }
+        .contents::after {
+            content: "";
+            clear: both;
+            display: block;
+            width: 100%;
+        }
 
-        .page_wrap { clear:both; width: 1200px; height: auto; margin:0 auto; }
-        .page_tit { font-size:48px; text-align: center; padding-top:1em; color:#fff;
-            padding-bottom: 2.4rem; }
+        .page {
+            clear: both;
+            width: 100vw;
+            height: 150vh;
+            position: relative;
+        }
 
-        .breadcrumb { clear:both;
-            width:1200px; margin: 0 auto; text-align: right; color:#fff;
-            padding-top: 28px;}
-        .breadcrumb a { color:#fff; }
+        .page::after {
+            content: "";
+            display: block;
+            width: 100%;
+            clear: both;
+        }
+
+        .page_wrap {
+            clear: both;
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .page_tit {
+            font-size: 48px;
+            text-align: center;
+            padding-top: 1em;
+            color: #fff;
+            padding-bottom: 2.4rem;
+        }
+
+        .breadcrumb {
+            clear: both;
+            width: 1200px;
+            margin: 0 auto;
+            text-align: right;
+            color: #fff;
+            padding-top: 28px;
+        }
+
+        .breadcrumb a {
+            color: #fff;
+        }
 
 
         d {
@@ -71,6 +109,7 @@
             display: inline-block;
 
         }
+
         .header h2 {
             display: inline-block;
             margin: 0;
@@ -82,7 +121,7 @@
         }
 
 
-        .frm1{
+        .frm1 {
             padding: 30px 40px;
         }
 
@@ -93,7 +132,7 @@
         }
 
 
-        .register_info_id{
+        .register_info_id {
             position: relative;
         }
 
@@ -124,7 +163,6 @@
         }
 
 
-
         .submit {
             background-color: cornflowerblue;
             border: 2px solid cornflowerblue;
@@ -136,13 +174,17 @@
         }
 
 
+        .agree_fr {
+            margin: 20px auto;
+            border: 1px solid #eee;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100px;
+            white-space: pre-wrap;
+        }
 
-        .agree_fr { margin: 20px auto; border:1px solid #eee;
-            padding: 20px; overflow-y: auto;
-            height: 100px; white-space: pre-wrap;}
 
-
-        .agree_fr2{
+        .agree_fr2 {
             border-radius: 5px;
             height: 100px;
             border: 1px solid #d9d6d6;
@@ -150,12 +192,23 @@
             white-space: pre-line;
             overflow-y: scroll;
             margin: 0 auto 20px;
-            padding: 10px;}
+            padding: 10px;
+        }
 
-        .frm1 p{text-align: right;}
+        .frm1 p {
+            text-align: right;
+        }
 
 
-        .frm1 input {display: inline-block;width: 100%;border: 1px solid #d9d6d6;padding: 17px 25px;box-sizing: border-box;margin: 0;border-radius: 5px;}
+        .frm1 input {
+            display: inline-block;
+            width: 100%;
+            border: 1px solid #d9d6d6;
+            padding: 17px 25px;
+            box-sizing: border-box;
+            margin: 0;
+            border-radius: 5px;
+        }
 
         .register_info {
             padding: 10px 0;
@@ -174,7 +227,7 @@
             color: #000;
         }
 
-        label>span {
+        label > span {
             font-weight: normal;
             color: red;
             font-size: 13px;
@@ -187,9 +240,12 @@
             float: left;
         }
 
-        .btn_fr label {padding-left: 25px;}
+        .btn_fr label {
+            padding-left: 25px;
+        }
 
-        input.inbtn {}
+        input.inbtn {
+        }
 
         button.submit {
             display: block;
@@ -259,7 +315,8 @@
                         <div class="register_info_id">
                             <label>아이디<%--<span>사용할 수 없는 아이디 입니다</span>--%></label>
 
-                            <input style="" required="" placeholder="아이디 (6~20자)" class="indata" id="id" name="id" type="text">
+                            <input style="" required="" placeholder="아이디 (6~20자)" class="indata" id="id" name="id"
+                                   type="text">
                             <button type="button" id="ck_btn" onclick="idcheck()">중복 확인</button>
                             <input type="hidden" name="ck_item" id="ck_item" value="no">
                             <input type="hidden" name="job" id="job" value="<%=job%>" readonly="">

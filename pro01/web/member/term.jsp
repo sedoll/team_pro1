@@ -23,7 +23,7 @@
         /* 본문 영역 스타일 */
         .contents { clear:both; min-height:150vh;
             background-image: url("../img/subbg.png");
-            background-repeat: no-repeat; background-position:center -100px; }
+            background-repeat: no-repeat; background-position: center -250px; }
         .contents::after { content:""; clear:both; display:block; width:100%; }
 
         .page { clear:both; width: 100vw; height: 100vh; position:relative; }

@@ -30,7 +30,7 @@
             min-height: 120vh;
             background-image: url("/img/subbg.png");
             background-repeat: no-repeat;
-            background-position: center -100px;
+            background-position: center -250px;
         }
 
         .contents::after {
