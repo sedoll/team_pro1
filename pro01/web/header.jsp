@@ -9,14 +9,14 @@
             <li>안녕하세요,  <%=sname%>님</li> <!-- 로그인 한 회원의 이름 -->
             <li><a href=<%=path2%>"/member/mypage.jsp">마이페이지</a></li>
             <li><a href=<%=path2%>"/member/logout.jsp">로그아웃</a></li>
-            <li><a href=<%=path2%>"/member/map.jsp">고객센터</a></li>
+            <li><a href=<%=path2%>"/help/help.jsp">고객센터</a></li>
                 <% if(sid.equals("admin")) {%>
                 <li><a href=<%=path2%>"/member/index.jsp">관리자페이지</a></li>
                 <% } %>
             <% } else {%>
             <li><a href=<%=path2%>"/member/login.jsp">로그인</a></li>
             <li><a href=<%=path2%>"/member/term.jsp">회원가입</a></li>
-            <li><a href=<%=path2%>"/member/map.jsp">고객센터</a></li>
+            <li><a href=<%=path2%>"/help/help.jsp">고객센터</a></li>
             <% } %>
         </ul>
     </nav>
@@ -24,7 +24,7 @@
 
 <div class="hd_wrap"> <!-- .hd_wrap:first-child  -->
     <a href=<%=path2%>"/index.jsp" class="logo">
-        <img src=<%=path2%>"/img/chunjae.png" alt="">
+        <img src=<%=path2%>"/img/logo.png" alt="">
     </a>
     <nav class="gnb">
         <ul class="menu">
@@ -39,8 +39,8 @@
                 <a href="" class="dp1">정보</a>
                 <ul class="sub">
                     <li><a class="move" href="/information_info/boardList.jsp">입시 정보</a></li>
-                    <li><a class="move" href="/information_news/boardList.jsp">입시 뉴스</a></li>
-                    <li><a class="move" href="/information_news/boardList.jsp">대외 활동 정보</a></li>
+                    <li><a class="move" href="/board_act/boardList.jsp">대외 활동 정보</a></li>
+                    <li><a class="move" href="/file/boardList.jsp">자료실</a></li>
                 </ul>
             </li>
             <li class="item3">

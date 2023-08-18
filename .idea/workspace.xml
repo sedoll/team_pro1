@@ -10,154 +10,156 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eafab95-e11f-49e8-9e0f-1cf44847f74f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/img/007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/bg_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/student.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/subbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/teacher2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/teentalk_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/teentalk_logo_300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/img/로고48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/information_info/boardList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/information_news/boardList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/member/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/team_pro1/com/chunjae/db/MariaDBCon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/team_pro1/com/chunjae/db/MariaDBCon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/artifacts/pro01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/artifacts/pro01_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/libraries/commons_fileupload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/libraries/commons_fileupload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/libraries/commons_io.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/libraries/commons_io.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/libraries/cos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/libraries/cos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/libraries/javax_servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/libraries/javax_servlet_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/libraries/mariadb_jdbc_java_client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/libraries/mariadb_jdbc_java_client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/0/b/0bf70cb818d0bde429debc93b410153ea93f6d63" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/0/b/0bf70cb818d0bde429debc93b410153ea93f6d63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/2/a/2ac18a427f434a0841ff447d977ca9e9581f923d" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/2/a/2ac18a427f434a0841ff447d977ca9e9581f923d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/3/5/35ebcd6df902f15608699295616baaecc491d0ff" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/3/5/35ebcd6df902f15608699295616baaecc491d0ff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/3/e/3e9388cb6d2852a38db9bcdd2a84df0fa0ca5025" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/3/e/3e9388cb6d2852a38db9bcdd2a84df0fa0ca5025" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/4/a/4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/4/a/4a87f90bffcdb4e9d2b938add5b82f2f1ade81b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/5/a/5a70d055aac54fd64871807275975852a461081b" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/5/a/5a70d055aac54fd64871807275975852a461081b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/8/6/86f6680ef4b667a441b16a13e6f448d04f99cfb2" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/8/6/86f6680ef4b667a441b16a13e6f448d04f99cfb2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/9/a/9ac731a43f33c685c294d53fff76b42d37944023" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/9/a/9ac731a43f33c685c294d53fff76b42d37944023" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/9/f/9f3805f363ffbd888b5dfa0eb5470cb9720219f3" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/9/f/9f3805f363ffbd888b5dfa0eb5470cb9720219f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/a/4/a4d706dcfd7ab74948ee4c3d4507aa85dbe3abf1" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/a/4/a4d706dcfd7ab74948ee4c3d4507aa85dbe3abf1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/c/d/cddfa57185e828d441f3909f460c84bcf200efc0" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/c/d/cddfa57185e828d441f3909f460c84bcf200efc0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/f/3/f397521416a28b08c8b5f9a05ec4b3b004812133" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/f/3/f397521416a28b08c8b5f9a05ec4b3b004812133" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/f/f/ff77691b3d429e53a4449f401a4cd692f37474d9" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/f/f/ff77691b3d429e53a4449f401a4cd692f37474d9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/pro01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/pro01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/db/DBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/com/chunjae/db/DBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/db/MariaDBCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/com/chunjae/db/MariaDBCon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/lib/commons-fileupload-1.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/lib/commons-io-2.13.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.13.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/lib/cos.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cos.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/lib/mariadb-java-client-3.1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mariadb-java-client-3.1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/lib/tomcat-servlet-api-9.0.78.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/tomcat-servlet-api-9.0.78.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/addAnspro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/addBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/addBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/addBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/addBoardpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/boardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/deleteBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/deleteBoardpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/getBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/getBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/updateAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/updateBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board/updateBoardpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/addBoardStu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/addBoardStupro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addStuAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/addStuAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addStuAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/addStuAnspro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/boardStuList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/boardStuList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/deleteBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/deleteBoardStupro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/getBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/getBoardStu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateAnsStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/updateAnsStu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/updateBoardStu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_stu/updateBoardStupro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/addBoardTea.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/addBoardTeapro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/addTeaAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/addTeaAnspro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/boardTeaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/boardTeaList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/deleteBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/deleteBoardTeapro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/getBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/getBoardTea.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateAnsTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/updateAnsTea.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/updateBoardTea.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/board_tea/updateBoardTeapro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/change_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/change_img.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/font.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/ft.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/ft.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/hd.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/hd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/css/slidebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/slidebox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/encoding.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/encoding.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/addFaq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/addFaq.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/addFaqpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/addFaqpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/deleteFaqpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/deleteFaqpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/faqList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/faqList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/getFaq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/getFaq.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/faq/페이징처리코드.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/faq/페이징처리코드.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/head.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/bg_social_ptn01.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/bg_social_ptn01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/boy.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/boy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/building.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/building.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/chunjae.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/chunjae.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/cj1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/cj1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/cj2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/cj2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/company1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/company1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/desert.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/desert.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/e404.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/e404.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/graph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/ico_foot_sns.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/ico_foot_sns.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/icon_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/icon_all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/icon_all_resize.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/icon_all_resize.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/icon_java.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/icon_java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/icon_py.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/icon_py.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/img_social_main01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/img_social_main01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/img_social_main02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/img_social_main02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/img_social_main03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/img_social_main03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/img_social_main04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/img_social_main04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/logo_64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/mountain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/mountain.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/point.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/point.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/sunset.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/sunset.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/t6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/t6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/img/teacher.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/img/teacher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/jquery.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/idcheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/idcheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/join.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/join.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/modify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/rotation.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/rotation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/js/slidebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/slidebox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/idcheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/idcheck.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/idload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/idload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/joinpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/joinpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/loginpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/logout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/logout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/modifypro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/modifypro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/mypage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/mypage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/member/term.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/member/term.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/menu/certification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu/certification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/menu/company.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu/company.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/menu/learning.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu/learning.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/addAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/addAnspro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/addQuestion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/addQuestionpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/deleteQnapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/deleteQnapro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/getQna.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/getQna.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/qnaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/qnaList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/updateAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/updateQuestion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_career/updateQuestionpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/addAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/addAnspro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/addQuestion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/addQuestionpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/deleteQnapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/deleteQnapro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/getQna.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/getQna.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/qnaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/qnaList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/updateAns.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/updateQuestion.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/qna_problem/updateQuestionpro.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro01/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team_pro1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/team_pro1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/dto/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/com/chunjae/dto/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/dto/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/com/chunjae/dto/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/util/FeedDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/util/FeedObj.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/util/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/src/com/chunjae/vo/Qna.java" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/src/com/chunjae/vo/Qna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/addAnspro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/addBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/addBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/addBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/addBoardpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/boardList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/deleteBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/deleteBoardpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/getBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/getBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/updateAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/updateBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board/updateBoardpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board/updateBoardpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/addBoardStupro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addStuAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/addStuAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/addStuAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/addStuAnspro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/boardStuList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/boardStuList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/deleteBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/deleteBoardStupro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/getBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/getBoardStu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateAnsStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/updateAnsStu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStupro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_stu/updateBoardStupro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/addBoardTeapro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/addTeaAnspro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/boardTeaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/boardTeaList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/deleteBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/deleteBoardTeapro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/getBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/getBoardTea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateAnsTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/updateAnsTea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTea.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTeapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/board_tea/updateBoardTeapro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/change_img.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/change_img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/ft.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/ft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/hd.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/hd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/css/slidebox.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/css/slidebox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/encoding.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/encoding.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/addFaq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/addFaq.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/addFaqpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/addFaqpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/deleteFaqpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/deleteFaqpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/faqList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/faqList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/getFaq.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/getFaq.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/faq/페이징처리코드.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/faq/페이징처리코드.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/007.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/007.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/bg_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/login.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo.ico" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo_16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_32.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/logo_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/logo_64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/student.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/student.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/subbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/teacher2.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/teacher2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/teentalk_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/teentalk_logo_300.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/teentalk_logo_300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/img/로고48.png" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/img/로고48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/information_info/boardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/information_info/boardList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/information_news/boardList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/jquery.dataTables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/idcheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/idcheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/join.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/join.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/modify.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/modify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/rotation.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/rotation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/js/slidebox.js" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/js/slidebox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/idcheck.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/idcheck.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/idload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/idload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/joinpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/joinpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/loginpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/logout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/logout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/modifypro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/modifypro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/mypage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/mypage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/member/term.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/member/term.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/menu/certification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/menu/certification.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/menu/company.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/menu/company.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/menu/learning.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/menu/learning.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/addAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/addAnspro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/addQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/addQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/addQuestionpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/deleteQnapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/deleteQnapro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/getQna.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/getQna.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/qnaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/qnaList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/updateAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_career/updateQuestionpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/addAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addAnspro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/addAnspro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/addQuestionpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/deleteQnapro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/deleteQnapro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/getQna.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/getQna.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/qnaList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/qnaList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateAns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/updateAns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestionpro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/qna_problem/updateQuestionpro.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro01/web/test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/pro01/web/test.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +201,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/kuyejin/workspace/team_pro1/pro01",
+    "last_opened_file_path": "D:/kuyejin/team_pro1/pro01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -404,6 +406,7 @@
       <workItem from="1692091082881" duration="9325000" />
       <workItem from="1692100722297" duration="177000" />
       <workItem from="1692101053481" duration="30509000" />
+      <workItem from="1692342397298" duration="931000" />
     </task>
     <servers />
   </component>

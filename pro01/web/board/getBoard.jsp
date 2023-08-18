@@ -61,12 +61,13 @@
 
         .tb1 thead th {
             line-height: 32px;
-            padding: 12px 15px; /* 패딩값 조정 */
-            border: 1px solid #f5f5f5; /* 테두리 색상 연하게 */
+            padding: 12px 15px; /
+            /*border: 1px solid #f5f5f5; !*/
             box-sizing: border-box;
             background-color: #eeeeee; /* 배경색 조정 */
             font-size: 22px;
-            font-weight: 600; /* 글씨 굵기 조정 */
+            font-weight: 600;
+            border-radius: 10px;
         }
 
         .tb1 thead td {
@@ -187,8 +188,8 @@
         #ans_btn {
 
             border-radius: 5px;
-            width: 80px; /* 버튼 크기 조정 */
-            padding: 7px 15px; /* 패딩값 조정 */
+            width: 80px; /* 버튼 크기  */
+            padding: 7px 15px;
             text-align: center;
         }
 
@@ -392,12 +393,15 @@
                             pageLength : 5,
                             searching: false, //검색 제거
                             lengthChange: false, // show entries 제거
-                            info: false
+                            info: false,
+
+                            language: {
+                                emptyTable: '작성된 댓글이 없습니다.'
+                            }
                         });
                         $('#myTable').css({
                             'border':'none',
                         });
-
 
                     } );
                 </script>

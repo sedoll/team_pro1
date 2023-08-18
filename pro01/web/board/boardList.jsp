@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QNA</title>
+    <title>자유게시판</title>
     <%@ include file="../head.jsp" %>
 
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
@@ -252,7 +252,10 @@
                         $('#myTable').DataTable({
                             order: [[0, 'desc']], // 0번째 컬럼을 기준으로 내림차순 정렬
                             info: false,
-                            dom: 'lt<f>p'
+                            dom: 'lt<f>p',
+                            language: {
+                                emptyTable: '작성된 글이 없습니다.'
+                            }
 
                         });
                     } );
@@ -271,9 +274,8 @@
                             'margin-right':'100px'
                         });
 
+
                     });
-
-
 
                 </script>
                 <div class="btn_group">

@@ -10,22 +10,22 @@
 %>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-compatible" content="IE=edge"> <!-- 익스프로어 일 경우 엣지를 사용하라고 안내-->
-<meta http-equiv="author" content="오세훈"> <!-- 문서의 제작사 -->
-<meta http-equiv="publisher" content="IT 천재교육 아카데미"> <!-- 문서의 저자 정의 -->
-<meta http-equiv="copyright" content="copyright@chunjae.co.kr"> <!-- 저작권 명시 -->
+<meta http-equiv="author" content="TeenTalk"> <!-- 문서의 제작사 -->
+<meta http-equiv="publisher" content="TeenTalk"> <!-- 문서의 저자 정의 -->
+<meta http-equiv="copyright" content="copyright@teentalk.co.kr"> <!-- 저작권 명시 -->
 <title>TEENTALK</title>
 
 <!-- 검색엔진 최적화(SEO) -->
-<meta name="subject" content="IT교육, ITALL"> <!-- 페이지 주제 지정 http-equiv 로 지정해도 상관 무 -->
-<meta name="keywords" content="IT교육, ITALL"> <!-- 검색 단어 지정 -->
+<meta name="subject" content="TeenTalk"> <!-- 페이지 주제 지정 http-equiv 로 지정해도 상관 무 -->
+<meta name="keywords" content="TeenTalk"> <!-- 검색 단어 지정 -->
 <!-- 검색 결과에 표시되는 문자 지정-->
-<meta name="description" content="ITALL은 IT 교육에 대한 자료 제공과 교육을 실시하는 회사입니다.">
+<meta name="description" content="TeenTalk은 IT 교육에 대한 자료 제공과 교육을 실시하는 회사입니다.">
 <meta name="robots" content="index, follow">
 
 <!-- 오픈 그래프 -->
 <!-- 페이지를 공유할 때 미리보기로 보여주는 코드 -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="ITALL">
+<meta property="og:title" content="TeenTalk">
 <meta property="og:description" content="앞선 생각으로 더 큰 미래의 교육을 준비하는 기업">
 <meta property="og:image" content=<%=path1%>"/img/img1.jpg">
 <meta property="og:url" content=<%=path1%>"/img/img1.jpg">

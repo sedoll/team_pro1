@@ -9,6 +9,7 @@ public class Board {
     private int cnt;
     private int lev;
     private int par;
+    private String link;
 
     public int getBno() {
         return bno;
@@ -72,5 +73,13 @@ public class Board {
 
     public void setPar(int par) {
         this.par = par;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 }
