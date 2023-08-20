@@ -14,7 +14,7 @@
  **서로의 경험을 공유하고 함께 성장할 수 있는 플랫폼을 제공**하는 것이   
  저희 팀의 기획의도 입니다.  
  
-### TEENTALK에 대해 자세히 설명해 드릴게요! [🙋‍♀️ CLIKE ME 🙋](https://drive.google.com/file/d/1UGHN_bC1933wXRF71-rOKsVdkzJZ5uxV/view?usp=drive_link    )
+### TEENTALK에 대해 자세히 설명해 드릴게요! [🙋‍♀️ CLIKE ME 🙋 (수정 중)](https://drive.google.com/file/d/1UGHN_bC1933wXRF71-rOKsVdkzJZ5uxV/view?usp=drive_link    )
 <br/>
   
 
