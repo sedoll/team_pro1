@@ -1,4 +1,5 @@
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 1차 프로젝트 
+
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 1차 프로젝트 
 
 ![스크린샷 2023-08-16 220827](https://github.com/kuyejin/project1/assets/65212187/e5da7ce5-3c8e-4b2b-a283-164cbd2fa902)
 
@@ -13,7 +14,7 @@
  **서로의 경험을 공유하고 함께 성장할 수 있는 플랫폼을 제공**하는 것이   
  저희 팀의 기획의도 입니다.  
  
-
+### TEENTALK에 대해 자세히 설명해 드릴게요! [🙋‍♀️ CLIKE ME 🙋](https://drive.google.com/file/d/1UGHN_bC1933wXRF71-rOKsVdkzJZ5uxV/view?usp=drive_link    )
 <br/>
   
 
@@ -30,7 +31,7 @@
 <br/>
 
 # 🗓 개발일정
-
+2023.08.01 ~
 
 <br/>
 
@@ -158,3 +159,37 @@
 ![17_고객센터 - FAQ](https://github.com/kuyejin/project1/assets/65212187/fae19a35-fe2a-4f18-947a-82b6aed7282e)
 
 🔹고객센터 - 문의하기![18_고객센터 - 문의하기](https://github.com/kuyejin/project1/assets/65212187/f6b1c0f0-0cd8-4b37-ae21-2dc3dc3a35a7)
+
+<br/>
+<br/>
+
+#  💻 화면 구현
+🔹메인페이지
+<img width="1470" alt="메인페이지" src="https://github.com/kuyejin/project1/assets/65212187/7b1ae488-30db-4a84-b63e-830abf6c2442">
+🔹로그인
+<img width="1470" alt="로그인" src="https://github.com/kuyejin/project1/assets/65212187/72c94da5-2adf-45dc-b9ba-3123324cf92a">
+🔹회원가입(학생 , 교사 선택)
+<img width="1470" alt="회원가입1" src="https://github.com/kuyejin/project1/assets/65212187/9d9c6754-76e1-4ff8-b77a-1691ce54e7f8">
+🔹회원가입
+<img width="815" alt="회원가입2" src="https://github.com/kuyejin/project1/assets/65212187/0c6497db-6d96-4cf5-a61c-bf36c419a02d">
+🔹마이 페이지
+![마이페이지](https://github.com/kuyejin/project1/assets/65212187/a29e57f8-ad40-4fde-afde-e573b5c2f152)
+🔹마이 페이지 - 회원정보수정
+![마이페이지 - 회원정보수정](https://github.com/kuyejin/project1/assets/65212187/5281f72e-1c74-41c1-b2ce-3c39fd8557a3)
+🔹커뮤니티 - 자유게시판_글작성
+<img width="1470" alt="커뮤니티 - 자유게시판 - 글작성" src="https://github.com/kuyejin/project1/assets/65212187/c3377715-fabd-4a74-8e3e-dd3fde748a09">
+🔹커뮤니티 - 자유게시판_자유게시판(로그인O)
+<img width="1470" alt="커뮤니티 - 자유게시판(로그인O)"
+ src="https://github.com/kuyejin/project1/assets/65212187/892ba429-16f1-4436-88b3-30c480994d67">
+ 🔹커뮤니티 - 자유게시판_자유게시판(로그인X)
+<img width="1470" alt="커뮤니티 - 자유게시판(로그인X)" src="https://github.com/kuyejin/project1/assets/65212187/b9ac4492-6ea0-4b40-a316-ca1020817c4d">
+
+
+ 🔹QnA - 문제 QnA
+<img width="1469" alt="QnA - 문제 QnA" src="https://github.com/sedoll/team_pro1/assets/65212187/b469bce1-16d7-468d-b769-22c404f878e3">
+ 🔹QnA - 진로상담
+![QnA - 진로상담](https://github.com/sedoll/team_pro1/assets/65212187/c7bb6d9d-7e9b-461a-aa82-43b0758df9ff)
+ 🔹QnA - 진로상담(본인,선생 제외 접근 시 알림창)
+![QnA -진로 상담(본인,선생 제외 접근 시 알림창)](https://github.com/sedoll/team_pro1/assets/65212187/3410142a-bb47-4456-a6b4-b3eaef70f5b1)
+🔹글 상세 보기
+<img width="1058" alt="QnA - 글 상세 보기" src="https://github.com/sedoll/team_pro1/assets/65212187/e4f09cbb-e9f8-4815-a9ba-78e5cdc8cf46">
