@@ -1,5 +1,5 @@
 
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 1차 프로젝트 
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;천재교육 풀스택 과정 1차 프로젝트 
 
 ![스크린샷 2023-08-16 220827](https://github.com/kuyejin/project1/assets/65212187/e5da7ce5-3c8e-4b2b-a283-164cbd2fa902)
 
@@ -13,8 +13,10 @@
  학생들과 교사들이 협력하고 소통하며
  **서로의 경험을 공유하고 함께 성장할 수 있는 플랫폼을 제공**하는 것이   
  저희 팀의 기획의도 입니다.  
+ <br/> <br/>
  
-### TEENTALK에 대해 자세히 설명해 드릴게요! [🙋‍♀️ CLIKE ME 🙋 (수정 중)](https://drive.google.com/file/d/1UGHN_bC1933wXRF71-rOKsVdkzJZ5uxV/view?usp=drive_link    )
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🔹TEENTALK🔹에 대해 자세히 설명해 드릴게요!
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[🙋‍♀️ CLIKE ME 🙋](https://drive.google.com/file/d/1UGHN_bC1933wXRF71-rOKsVdkzJZ5uxV/view?usp=drive_link    )
 <br/>
   
 
