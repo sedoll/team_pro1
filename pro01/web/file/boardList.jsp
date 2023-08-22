@@ -127,7 +127,7 @@
         }
         .tb1 .item2 {
             width: 60%;
-
+            text-overflow: ellipsis;
             text-align: left;
         }
         .tb1 .item3 {

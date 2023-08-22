@@ -1,4 +1,7 @@
 
-MWeb:TableWithoutCaptionCheckO" Add a description to this table.(Ö•’œúÿÿÿÿ
-g Web:TableHeaderHasIdOrScopeCheckR";Add either an 'id' or a 'scope' attribute to this <th> tag.(çè­É
-l Web:TableHeaderHasIdOrScopeCheckV";Add either an 'id' or a 'scope' attribute to this <th> tag.(ìŸ§—ùÿÿÿÿ
+MWeb:TableWithoutCaptionCheckj" Add a description to this table.(Ö•’œúÿÿÿÿ
+<<<<<<< HEAD
+F	Web:S5256j"%Add "<th>" headers to this "<table>".(Ö•’œúÿÿÿÿ8§Ÿ’¾ 1
+=======
+?	Web:S5256j"%Add "<th>" headers to this "<table>".(Ö•’œúÿÿÿÿ
+>>>>>>> 427e03c4877cea1b6d620fd73b590469d0ceb10d

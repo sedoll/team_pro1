@@ -108,13 +108,13 @@
 
         .logo-wrap {
             margin: 0 auto;
-            padding: 50px 10px 60px 10px;
+            padding: 50px 10px 60px 20px;
         }
 
         .indata {
             font-size: 14px;
             box-sizing: border-box;
-            margin-left: 5px;
+            margin-left: 15px;
             margin-bottom: 16px;
             border: none;
             border-radius: 5px;
@@ -129,7 +129,7 @@
             background-color: cornflowerblue;
             font-weight: bolder;
             font-size: 20px;
-            margin: 5px 10px 15px 5px;
+            margin: 5px 10px 15px 15px;
             padding: 10px;
             border: none;
             border-radius: 5px;
